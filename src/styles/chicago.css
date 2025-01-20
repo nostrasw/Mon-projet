@@ -1,0 +1,83 @@
+.chicago{
+  margin-top: 2rem;
+  width: 100%;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.chicagomain{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+}
+.chicagomain figure{
+  margin:0;
+  width: 400px;
+  height: 400px;
+  position: relative;
+}
+.chicagomain figure img{
+  border-radius: 16pt;
+  object-fit: cover;
+  box-shadow: 1px 1px 10px 0px rgb(149, 148, 148);
+  max-width: 400px;
+}
+.chicagomain figure img:nth-child(1){
+  position: absolute;
+  top:0
+}
+.chicagomain figure img:nth-child(2) {
+  position: absolute;
+  top:30%;
+  left:10%
+}
+.chicagotext{
+  max-width: 350px;
+  padding: 0 .5rem;
+}
+.chicagotext h2,.chicagotext h6{
+  color:var(--maincolor)
+}
+.chicagotext p{
+  color:rgb(71, 71, 71)
+}
+@media screen and (max-width:1000px) {
+  .chicagomain figure {
+    margin: 0;
+    width: fit-content;
+    height: fit-content;
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .chicagomain figure img {
+    max-width: 400px;
+  }
+  .chicagomain figure img{
+    margin-bottom: 2rem
+  }
+  .chicagomain figure img:nth-child(1) {
+    position: relative;
+    top: 0;
+  }
+  .chicagomain figure img:nth-child(2) {
+    position: relative;
+    top: 0;
+    left: 0
+  }
+  .chicagomain {
+    display: flex;
+    justify-content: center;
+    flex-direction: column-reverse;
+    align-items: center;
+    width:100%
+  }
+}
+@media screen and (max-width:450px) {
+  .chicagomain figure img {
+    max-width: 300px;
+  }
+}

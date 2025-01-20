@@ -1,0 +1,50 @@
+.articlestyle {
+    margin-bottom: 2rem;
+}
+
+.articlestyle article {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    margin-left: 10%;
+    padding: 0 .6rem
+}
+.articlestyle article>h2 {
+    font-size: 25pt;
+    margin: .5rem 0;
+}
+
+.articlestyle article>p {
+    max-width: 700px;
+    color:rgb(49, 49, 49)
+}
+
+.articlestyle article figure {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 0;
+}
+
+.articlestyle article figure img {
+    border-radius: 5pt;
+}
+
+.articlestyle article figure figcaption {
+    font-size: var(--leadtext);
+    font-weight: 500;
+}
+
+.componentstart .chicagomain {
+    align-items: start;
+}
+@media screen and (max-width: 500px) {
+    .articlestyle article {
+        align-items: start;
+        margin-left: 0;
+    }
+
+    .articlestyle article figure img {
+        width: 300px;
+    }
+}
