@@ -1,7 +1,7 @@
 <<<<<<< HEAD
 # Mon-projet
 =======
-## Little Lemon(capstone Project by Habib Olamide Oropo)
+## Little Lemon(capstone Project Adama Coulibaly)
 
 #### Little lemon is a demo resturant webapp built with react.
 
@@ -16,5 +16,5 @@ The webapp contains 5 pages (Home,About,Menu,Reservation,Login)
 ![project screenshot](./public/Screenshot%20(144)-crop.png)
 
 ### `Contact me`
-For futher inquiries contact me [oropohabib@gmail.com](oropohabib@gmail.com)
+For futher inquiries contact me [adacoulsw@gmail.com](adacoulsw@gmail.com)
 >>>>>>> 3b466ad (creation)
